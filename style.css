@@ -57,7 +57,7 @@ button[type="submit"]:hover{
     background: linear-gradient(180deg, rgb(245, 241, 212), rgba(229, 216, 71, 0.774) );
     padding: 20px;
     box-shadow: 2px 2px 5px hsla(0, 8%, 3%, 0.932);
-    min-width: 700px;
+    min-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,16 +70,16 @@ h1{
 
 }
 
-th, tr, td{
-    font-size: 15px;
+tr, td{
+    font-size: 25px;
     vertical-align:text-top;
     padding: 9px;  
-    width: 0px;
-     margin: 5;
+    margin: 5;
+     
 }
 table{
     padding: 0;
-    width: 0;
+    border-collapse: collapse; 
    
     
 }
@@ -91,6 +91,10 @@ table{
 .greeting{
     
     color: rgb(21, 21, 20);
-    font-size: 17px;
-    background-color: rgba(240, 248, 255, 0.572);
+    font-size: 15px;
+    background-color: rgba(240, 248, 255, 0.572);font-weight: bold;
+}
+
+.preClass{
+    font-size: 10px; 
 }
